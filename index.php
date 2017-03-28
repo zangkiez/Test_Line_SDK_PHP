@@ -7,7 +7,7 @@
             var URL = 'https://access.line.me/dialog/oauth/weblogin?';
             URL += 'response_type=code';
             URL += '&client_id=1507926690';
-            URL += '&redirect_uri=http://www.emssmart.com/tests/line/login_callback.php';
+            URL += '&redirect_uri=https://obscure-oasis-73152.herokuapp.com/call_black.php';
             URL += '&state=ArdCg';
             window.location.href = URL;
         }
