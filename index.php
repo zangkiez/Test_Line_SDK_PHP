@@ -6,7 +6,7 @@
         function oAuth2() {
             var URL = 'https://access.line.me/dialog/oauth/weblogin?';
             URL += 'response_type=code';
-            URL += '&client_id=1507926690';
+            URL += '&client_id=1508091221';
             URL += '&redirect_uri=https://obscure-oasis-73152.herokuapp.com/call_black.php';
             URL += '&state=ArdCg<?php echo time();?>';
             window.location.href = URL;
